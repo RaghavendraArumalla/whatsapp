@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>whatsapp clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    
+        .container{
+            border: solid black 1px;
+            width: 290px;
+            height: 50px;          
+            border-radius: 15px;
+            position: relative;
+            margin-left: 600px;
+            margin-top: 150px;           
+        }
+        .f1{
+            border: solid black;
+            height: 50px;
+            border-top: none ;
+            border-left:none ;
+            border-right:none ;
+            border-bottom:none ;
+            background-color: rgb(234, 247, 234);
+            border-top-right-radius: 12px;
+            border-top-left-radius: 12px;
+            
+        }
+        .i1 ,.i2,.i3,.i4{
+            position: absolute;
+            padding-left: 200px;
+        }
+        .i2{
+            padding-left: 240px;
+        }
+        .i3{
+            padding-left: 275px;
+        }
+        .i4{
+            padding-left: 5px;
+        }
+        .y{
+            border-radius: 20px ;
+            width:40px;
+            height: 40px;
+            margin-left:30px;
+            position:absolute; 
+            padding-left: 3px;
+        }
+        .frnd{
+            overflow: scroll;
+            max-height: 380px; 
+           position: relative;
+           background-image: url(./pexels-eberhardgross-2310713.jpg);
+        }
+        .frnd1{
+            margin-left: 230px;
+            margin-top: 100px;
+            border: solid rgb(48, 22, 164);
+            width:50px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd2{
+           
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            width:50px;
+             margin-left: 60px;
+             margin-top: 30px;
+             height: 20px;
+             /* position: absolute; */
+
+        }
+        .frnd3{
+            /* position: absolute; */
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd4 ,.frnd6,.frnd8,.frnd10,.frnd12,.frnd14,.frnd16,.frnd18,.frnd20,.frnd22,.frnd24,.frnd26,.frnd28{
+            
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            width:150px;
+             margin-left: 60px;
+             margin-top: 30px;
+             height: 20px;
+        }
+        .frnd5{
+            
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd7{
+            
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd9{
+    
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd11{
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd13{
+            
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd15{
+            
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd17{
+            
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd19{
+        
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd21{
+            /* position: absolute; */
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd23{
+            /* position: absolute; */
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd25{
+        
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd27{
+            
+            margin-left: 140px;
+            border: solid rgb(48, 22, 164);
+            width:150px;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        }
+        .frnd6 ,.frnd8,.frnd10,.frnd12,.frnd14,.frnd16,.frnd18,.frnd20,.frnd22,.frnd24{
+            border: solid black;
+            background-color: rgb(59, 59, 191);
+            color: white;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            width:150px;
+             margin-left: 60px;
+             margin-top: 30px;
+             height: 20px;
+        }
+        .frnd::-webkit-scrollbar{
+            display: none;
+        }
+        .sai{
+            width: 90px;
+            border-radius: 70px;
+            height: 100px;
+            margin-left: 90px;
+            margin-top: 30px;    
+                 }
+                 .c{
+                    border-radius: 540px;
+                    position: absolute;
+                    margin-left: 170px;
+                    margin-top: 90px;
+                    height: 50px;
+                 }
+                 .a{
+                    border-radius: 540px;
+                    position: absolute;
+                    margin-left:90px;
+                    margin-top: 80px;
+                    height: 50px;
+                 }
+                 .b{              
+                    border-radius: 540px;
+                    position: absolute;
+                    margin-left: 9px;
+                    margin-bottom: 10px;
+                  height: 50px;
+                 }
+                 .cd{
+                    position: relative;
+                 }
+                 .cd1{
+                    position: absolute;
+                    margin-left: 90px;
+                 }
+                 .cd2{
+                    position: absolute;
+                    margin-top: 20px;
+                    margin-left: 90px;
+                 }
+                 .cd3{
+                    position: absolute;
+                    margin-top: 045px;
+                    margin-left: 90px;
+                 }
+                 .min,.min1,.min2,.min3,.min4,.min5{
+                    position: sticky;
+                    width: 70px;
+                    background-color: rgb(236, 239, 238);
+                    text-align: center;
+                    border-radius: 30px;
+                    margin-left: 120px;
+                    top: 0px;
+                    font-size:small;
+                 }
+                 .x{
+                    height:37px;
+                    border-radius: 10px;
+                    border-radius: 10px;
+                    border-bottom: none;
+                    border-left: none;
+                    border-right: none;
+                    position: relative;
+                    background-color: rgb(220, 214, 214);
+                 }
+                 .x1{
+                    margin-left: 10px;
+                    border: solid rgb(251, 238, 238);
+                    width: 20px;
+                    height: 25px;
+                    margin-top:2px;
+                    padding-top: 5px;
+                    padding-left: 6px;
+                    border-radius: 90px;
+                    background-color:white;
+                 }
+                 .x2{
+                    margin-left: 43px;
+                    margin-top: -27px;
+                 }
+                 .x3{
+                    margin-left: 180px;
+                    margin-top: -17px;
+                 }
+                 .x4{
+                    margin-left: 210px;
+                    margin-top: -17px;
+                 }
+                 .x5{
+                    margin-left: 240px;
+                    margin-top: -17px;
+                 }
+                 .x6{
+                    margin-left: 270px;
+                    margin-top: -17px;
+                 }
+                 .display1{
+                    width: 290px;
+                    height: 15px;
+                    background-color: black;
+                   border-top-right-radius: 10px;
+                   border-top-left-radius: 10px;
+                 }
+                 .display2{
+                    height: 15px;
+                    background-color: black;
+                   border-bottom-right-radius: 10px;
+                   border-bottom-left-radius: 10px;
+                 }
+                 .musk{
+                    margin-left:80px ;
+                   text
+                 }
+                 .musk1{
+                    margin-left: 80px;
+                 }
+                 
+                 
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="display1"></div>
+        
+       
+        <div class="f1">
+        <p class="i1">
+            <i class="fa-solid fa-video"></i>
+            </p>
+            <p class="i2">
+                <i class="fa-solid fa-phone"></i>
+                </p>
+                <p class="i3">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </i></p>
+            <p class="i4"><i class="fa-solid fa-arrow-left"></i></p>
+            
+    
+            <img src="./elonmusk.jpeg"  width="40px" class="y"  >
+            <div class="musk"><b>Elonmusk</b></div>
+            <div class="musk1">astrophilers</div>
+        
+        </div>
+     
+        <div class="frnd">
+            <div class> <img src="./elonmusk.jpeg"  width="80px" class="sai"  ></br>
+            </div>
+            <div class="cd">
+               <div class="cd1">Elon M.U.S.K</div> 
+            <div class="cd2">_elon_musk</div>
+            <div class="cd3">37T Followers</div>
+        </div>
+          
+            <p class="frnd1">Hii</p>
+            <img src="./elonmusk.jpeg"  width="40px" class="b"  >
+            <p class="frnd2">Hlo</p>
+            <p class="frnd3">Where are from ? </p>
+            <img src="./elonmusk.jpeg"  width="40px" class="b"  >
+            <p class="frnd4">i am from south africa </p> 
+            <div class="min5">28 july</div>
+          
+            <p class="frnd5">how are you?</p> 
+            <img src="./elonmusk.jpeg"  width="40px" class="b"  >
+            <p class="frnd6">I am fine</p>
+            <p class="frnd6"> What about you?</p>
+            <p class="frnd7">Tns for asking, i'm doing well  </p>
+            <img src="./elonmusk.jpeg"  width="40px" class="b"  >
+            <p class="frnd8">ok </p>
+            <div class="min4">29 july</div>
+            <p class="frnd9"> what is your next Project? </p>
+            <img src="./elonmusk.jpeg"  width="40px" class="b"  >
+            <p class="frnd10">I want to go to mars</p>
+            <p class="frnd11">Why you choose only Mars?</p>
+            <img src="./elonmusk.jpeg"  width="40px" class="b"  >
+            <p class="frnd12">It is sutiable for us.
+            <p class="frnd13">How many years it will takes.</p>
+            <img src="./elonmusk.jpeg"  width="40px" class="b"  >
+            <p class="frnd14"> I Think 10 years</p>
+            <div class="min2">30 july</div>
+
+            <p class="frnd15"> are you intrested to stay at mars.</p>
+           
+            <p class="frnd17">is it sutiable for you?</p> 
+            <img src="./elonmusk.jpeg"  width="40px" class="b"  >
+            <p class="frnd18">i want establish world </p>
+            <p class="frnd19">you doing correct process?</p>
+            <img src="./elonmusk.jpeg"  width="40px" class="b"  >
+            <p class="frnd20"> yes did it.</p>
+            <div class="min3">Yesterday</div>
+            <p class="frnd21">Is this useful for all the world</p>.</p>
+            <img src="./elonmusk.jpeg"  width="40px" class="b"  >
+            <p class="frnd22">it helps all the world.</p>
+            <p class="frnd23">wonderful meeting with you.</p>
+            <img src="./elonmusk.jpeg"  width="40px" class="b"  >
+            <p class="frnd24">oh thts nice.</p>
+            <div class="min1">Today</div>
+            <p class="frnd25">thans for giving your great time sir.</p>
+            <img src="./elonmusk.jpeg"  width="40px" class="b"  >
+            <p class="frnd26"> ok</p>
+            <p class="frnd27">ok bye sir</p>
+        </div>
+         <div class="x">     
+           <div  class="x1"> <i class="fa-solid fa-camera"></i>
+        </div> 
+        <div class="x2"> Message...</div>
+        <div  class="x3"> <i class="fa-solid fa-microphone"></i>
+        </div>
+        <div class="x4"> <i class="fa-regular fa-image"></i> </div>
+        <div class="x5"><i class="fa-solid fa-face-smile"></i></div>
+        <div class="x6"><i class="fa-sharp fa-solid fa-circle-plus"></i></div>     
+         </div>
+         <div class="display2"></div>
+        </div> 
+    </div>
+</body>
+</html>
